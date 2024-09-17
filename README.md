@@ -8,3 +8,13 @@ It also gives a report of how many .mbz files were deleted and how much space wa
 
 ## Instructions
 The backup files can be deleted from `/admin/tool/clearbackupfiles/index.php` and you can find logs at `/report/log/index.php`. The default Moodle events are used to create log entries.
+
+### To Do
+
+- [ ] Add option to include/exclude "component=backup AND filearea=course"
+- [ ] Add option to include/exclude "component=backup AND filearea=activity"
+- [ ] Add option to include/exclude "component=user AND filearea=backup AND filename NOT LIKE 'Sharingcart-%'"
+- [ ] Add option to include/exclude "component=user AND filearea=backup AND filename LIKE 'Sharingcart-%'"
+- [ ] Add option to include/exclude "component=user AND filearea=private"
+- [ ] Add option to include/exclude "filearea=attachment"
+- [ ] Add preview of amount of data that would be deleted by selecting each option
